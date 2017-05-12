@@ -1,9 +1,12 @@
-function sgd(U, Ip, In, K, eta, lambda, maxiter, k)
-	n = size(K,1)
+function sgd(U, Ip, In, Iptest, Intest, K, eta, lambda, maxiter, k)
+	n = max(size(K,1))
 	T = size(Ip,1)
-	bsize = 5
+	bsize = 20
 	for iter= 1:maxiter
 		#println("Iter=", iter)
+		if (iter % 10000 == 0)
+			eta = eta/2
+		end
 		grad = zeros(k,n)
 	        sgame = randperm(T)
 		for gidx= 1:bsize
@@ -34,8 +37,8 @@ function sgd(U, Ip, In, K, eta, lambda, maxiter, k)
 		end
 	#	println(timeA," ",timeB)
 		U = U - eta * grad
-		if (iter %100 ==0)
-			println(iter," ",evaluation(U,T,Ip,In,lambda))
+		if (iter %1000 ==0)
+			println(iter," ",evaluation(U,T,Ip,In,Iptest,Intest,lambda))
 		end
 	end
 	return U

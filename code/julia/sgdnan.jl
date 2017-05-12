@@ -4,6 +4,9 @@ function sgd(U, Ip, In, K, eta, lambda, maxiter, k)
 	bsize = 5
 	for iter= 1:maxiter
 		#println("Iter=", iter)
+		if (iter % 5000 == 0)
+			eta= eta/2
+		end
 		grad = zeros(k,n)
 	        sgame = randperm(T)
 		for gidx= 1:bsize

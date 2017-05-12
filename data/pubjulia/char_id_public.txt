@@ -1,0 +1,62 @@
+"Lt. Morales" 19
+"Leoric" 47
+"Tassadar" 2
+"The Butcher" 35
+"Thrall" 21
+"Dehaka" 6
+"Cho" 60
+"Abathur" 42
+"Xul" 33
+"Jaina" 12
+"Sonya" 46
+"The Lost Vikings" 49
+"Sgt. Hammer" 59
+"Arthas" 22
+"Rexxar" 56
+"Gazlowe" 48
+"Varian" 57
+"Lunara" 37
+"Azmodan" 58
+"Rehgar" 5
+"Tychus" 40
+"Li Li" 15
+"Zarya" 9
+"Zagara" 17
+"Anub&#39;arak" 51
+"Brightwing" 41
+"Falstad" 26
+"Zeratul" 24
+"Nazeebo" 25
+"Diablo" 20
+"Kharazim" 44
+"Johanna" 10
+"Tyrande" 31
+"Malfurion" 3
+"Kael&#39;thas" 1
+"Murky" 52
+"Illidan" 14
+"Valla" 7
+"E.T.C." 32
+"Uther" 23
+"Kerrigan" 13
+"Nova" 54
+"Gul&#39;dan" 53
+"Ragnaros" 27
+"Greymane" 30
+"Chromie" 45
+"Medivh" 50
+"Valeera" 62
+"Samuro" 28
+"Tyrael" 43
+"Auriel" 36
+"Tracer" 55
+"Alarak" 39
+"Artanis" 8
+"Raynor" 38
+"Muradin" 18
+"Chen" 29
+"Gall" 61
+"Li-Ming" 16
+"Sylvanas" 34
+"Zul&#39;jin" 4
+"Stitches" 11
