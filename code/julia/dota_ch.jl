@@ -1,6 +1,6 @@
 using MAT
-include("sgd.jl")
-include("eval.jl")
+include("sgddota.jl")
+include("evaldota.jl")
 # get data
 Ip = readdlm("../../data/dota/dota_char_W_train")
 In = readdlm("../../data/dota/dota_char_L_train")
@@ -18,8 +18,10 @@ Intest = round.(Int, Intest)
 n = size(K,1)
 k = 100    
 U = randn(k,n)
-eta = 2e-4
+A = randn(n)
+eta = 1e-4
 lambda = 1e-2
 maxiter = 200000;
+gamma = 0
 # training
-U = sgd(U, Ip, In, Iptest, Intest, K, eta, lambda, maxiter, k)
+U = sgd(U, A, Ip, In, Iptest, Intest, K, eta, lambda, maxiter, k, gamma)
