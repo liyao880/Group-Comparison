@@ -11,7 +11,7 @@ import trueskill
 from math import sqrt
 import numpy as np
 from sklearn.metrics import accuracy_score
-## Thins need to input
+## Things need to input
 # number of characters or players,Win_train,Lose_train,Win_test,Lose_test
 
 #sys.argv=[54,'chW_train.txt','chL_train.txt','chW_test.txt','chL_test.txt']
@@ -21,7 +21,7 @@ from sklearn.metrics import accuracy_score
 #sys.argv=[113,'dota_char_W_train','dota_char_L_train','dota_char_W_test','dota_char_L_test']
 sys.argv=[33127,'dota_player_W_train','dota_player_L_train','dota_player_W_test','dota_player_L_test']
 
-## Tournament Game: Character
+## Code
 k=sys.argv[0]
 R=[]
 for i in range(k):
