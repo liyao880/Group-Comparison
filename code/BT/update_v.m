@@ -7,6 +7,8 @@ function [V] = update_v(P, N, V, K, eta, lambda)
 
 %% Output:V
 %%     V: the vector we want to get after updating
+P=P(P~=0);
+N=N(N~=0);
 PN=[P,N];
 Pv=V(P);
 Nv=V(N);

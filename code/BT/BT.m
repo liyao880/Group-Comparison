@@ -19,8 +19,8 @@ for iter=1:maxiter
     P=Ip(t,:); % get the corresponding player index for the winning team
     N=In(t,:); % get the corresponding player index for the losing team
     [V] = update_v(P, N, V, K, eta, lambda); % Update U
+end
 [obj,pred] = COM_obj_acc(V, Ip, In, lambda);
  disp(obj);
  disp(pred/T);
-end
 end

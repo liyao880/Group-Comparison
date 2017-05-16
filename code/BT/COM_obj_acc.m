@@ -6,6 +6,8 @@ function [obj,pred] = COM_obj_acc(V, Ip, In, lambda)
  for i=1:T
      P=Ip(i,:);
      N=In(i,:);
+     P=P(P~=0);
+     N=N(N~=0);
      Pv=V(P);
      Nv=V(N);
      tmp=-sum(Pv)-sum(Nv)+2*log(exp(sum(Pv))+exp(sum(Nv)));
