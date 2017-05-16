@@ -14,13 +14,13 @@ Pv=V(P);
 Nv=V(N);
 for i=1:size(P,2)
     v=V(P(i));
-    grad=-1+2*exp(sum(Pv))/(exp(sum(Pv))+exp(sum(Nv)))+lambda*(exp(v)-exp(-v))/K(P(i));
+    grad=-1+exp(sum(Pv))/(exp(sum(Pv))+exp(sum(Nv)))+lambda*(exp(v)-exp(-v))/K(P(i));
     v=v-eta*grad;
     V(P(i))=v;
 end
 for i=1:size(N,2)
     v=V(N(i));
-    grad=-1+2*exp(sum(Nv))/(exp(sum(Pv))+exp(sum(Nv)))+lambda*(exp(v)-exp(-v))/K(N(i));
+    grad=exp(sum(Nv))/(exp(sum(Pv))+exp(sum(Nv)))+lambda*(exp(v)-exp(-v))/K(N(i));
     v=v-eta*grad;
     V(N(i))=v;
 end
