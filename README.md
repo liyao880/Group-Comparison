@@ -1,6 +1,9 @@
 # Group-Comparison
 
-## Package requirement
+## Platform and Package requirement
+- R: LiblineaR, mclust
+- Julia
+- Python: numpy
 
 ## Example
 
