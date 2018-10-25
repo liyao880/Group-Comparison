@@ -5,10 +5,12 @@
 - Julia
 - Python: numpy
 
+## Data 
+
 ## Example
 
 ### LR
-- see code for Basic HOI in /code/LRLR.R
+- see code for Basic HOI in /code/LR&LR_allpair/LR.R
 ### Basic HOI
-- see code for Basic HOI in LR.R
+- see code for Basic HOI in /code/LR&LR_allpair/LR.R
 ### Factorization HOI
