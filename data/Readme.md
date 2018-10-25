@@ -1,4 +1,4 @@
-This folder contains the datasets we use for the project.
+# This folder contains the datasets we use for the project.
 
 There are two datasets. One is tournament data of Heroes of the storm, and another one is public data of Heroes of the storm.
 
