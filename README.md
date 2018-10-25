@@ -6,6 +6,10 @@
 - Python: numpy
 
 ## Data 
+There are three datasets
+- tournament data of Heroes of the storm
+- public data of Heroes of the storm
+- public data of notable players in Dota2
 
 ## Example
 
