@@ -8,7 +8,7 @@
 ## Example
 
 ### LR
-
+- see code for Basic HOI in /code/LRLR.R
 ### Basic HOI
 - see code for Basic HOI in LR.R
 ### Factorization HOI
