@@ -1,6 +1,9 @@
-# This folder contains the datasets we use for the project.
+## This folder contains the datasets we use for the project.
 
-There are two datasets. One is tournament data of Heroes of the storm, and another one is public data of Heroes of the storm.
+### There are three datasets
+- tournament data of Heroes of the storm
+- public data of Heroes of the storm
+- public data of notable players in Dota2
 
 For the tournament dataset: there are 9610 games.
 chW.txt: contains the indices of characters on the winning team. 9610*5 matrix
