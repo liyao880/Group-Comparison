@@ -18,4 +18,4 @@ There are three datasets
 ### Basic HOI
 - see code for Basic HOI in /code/LR&LR_allpair/LR.R
 ### Factorization HOI
-- For doing factorization HOI on Dota2 players. Just run julia dota_player.jl in /code/julia/
+- For doing factorization HOI on Dota2 players. Just run "julia dota_player.jl" in /code/julia/. For factorzation HOI on other dataset, run "julia <HoS/dota>_<player/ch>.jl" where HoS stands for Heros of Storms and ch stands for the heros.
